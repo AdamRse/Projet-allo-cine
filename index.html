@@ -1,18 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Mini Allo-ciné</title>
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./img/default-movie.jpg">
 </head>
+
 <body>
+    <button
+        type="button"
+        class="btn btn-danger btn-floating btn-lg"
+        id="btn-back-to-top"
+        style="background-color: #000; border: 1px solid #000; border-radius: 50%;"
+        >
+        UP
+    </button>
 
+    <div id="modele-card" class="card">
+        <h2 class="film-titre">titre</h2>
+        <div class="ligne">
+            <div class="desc">Date de sortie</div>
+            <div class="film-release valeur">Release</div>
+        </div>
+        <div class="ligne">
+            <div class="desc">Durée</div>
+            <div class="film-duree valeur">Duree</div>
+        </div>
+        <div class="ligne">
+            <div class="desc">Genre</div>
+            <div class="film-genre valeur">Genre</div>
+        </div>
+        <div class="ligne">
+            <div class="desc">Directeur</div>
+            <div class="film-directeur valeur">Directeur du film</div>
+        </div>
+        <div class="ligne">
+            <div class="desc">Acteurs</div>
+            <div class="film-acteurs valeur"></div>
+        </div>
+        <div class="ligne">
+            <div class="desc">Synopsis</div>
+            <div class="film-syno valeur">Synopsis</div>
+        </div>
+        <div class="ligne">
+            <div class="desc">Langues</div>
+            <div class="film-langue valeur">Langue</div>
+        </div>
+        <div class="ligne">
+            <div class="desc">Nationalité</div>
+            <div class="film-pays valeur">Pays</div>
+        </div>
+        <div class="ligne">
+            <div class="desc">Récompenses</div>
+            <div class="film-awards valeur">Récompsenses</div>
+        </div>
+        <div class="ligne">
+            <div class="desc">Metascore</div>
+            <div class="film-metascore valeur">Metascore</div>
+        </div>
+        <div class="ligne">
+            <div class="desc">Score imdb</div>
+            <div class="film-imdb valeur">IMDB</div>
+        </div>
+        <div class="ligne">
+            <div class="desc">Format</div>
+            <div class="film-type valeur">Format</div>
+        </div>
+        <div class="ligne">
+            <div class="film-apercu"></div>
+        </div>
+            
+    </div>
 
+    <!-- liste des films -->
+    <div id="liste-films">
 
-
-    <script src=""></script>
-    <script src=""></script>
-    <script src=""></script>
+    </div>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
